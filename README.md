@@ -52,13 +52,13 @@ Bom, esse bot não teria sido feito sem a base do, [Skiller](https://youtube.com
 
 [Skiller](https://youtube.com/c/SkillerOfc)
 
-[Wesley](wa.me/+554288914327)
+[Wesley](https://api.whatsapp.com/send/?phone=%2B554288914327&text&app_absent=0)
 
 Agradeço a esses caras 
 
 ---
 
-# 🥺 Donate
+# 💸 Donate
 [Paypal](https://www.paypal.com/donate?business=72QN6DV3J23T8&no_recurring=0&item_name=Doa%C3%A7%C3%A3o+&currency_code=BRL)
 
 ---
