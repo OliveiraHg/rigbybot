@@ -19,7 +19,7 @@
 [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=pt_BR&gl=US)
 
 ```
-git clone https://github.com/ianmsfvenom/Brizas-bot
+git clone https://github.com/SrRigby/Rigby-bot
 cd Rigby-bot
 bash install.sh
 
