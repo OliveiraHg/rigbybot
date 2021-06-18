@@ -1031,7 +1031,7 @@ case 'divulgar':
 					prefix = args[0]
 					setting.prefix = prefix
 					fs.writeFileSync('./src/settings.json', JSON.stringify(setting, null, '\t'))
-					reply(`Prefix berhasil di ubah menjadi : ${prefix}`)
+					reply(`Prefixo alterado com sucesso para: ${prefix}`)
 					break
                  //_RANKS E %
 case '%gay':		
