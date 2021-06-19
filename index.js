@@ -956,9 +956,9 @@ case 'level':
 					break
 				case 'dono':
 					memein = await kagApi.memeindo()
-					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4V_4fdvF8rluX0T3KKGOvY0TusMwx7nVWtw&usqp=CAU`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:* SR RIGBY\n*YOUTUBE:* https://youtube.com/c/SKILLERFFOFC\n*WPP:* wa.me/+558591212543\n*INSTA:* @sr_rigby\n\n\nEspero que tenham gostado do bot 🥵'})
-					  client.sendMessage(from, 'Ctt do meu dono ai Wa.me/558591212543 , pfv n flode',MessageType.text, { quoted: mek} )
+					buffer = await getBuffer(`https://i.ibb.co/R200R5Q/logo.jpg`)
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:* SR RIGBY\n*YOUTUBE:* https://youtube.com/channel/UCELGEXRFguEnOl8tiUufzRQ\n*WPP:* wa.me/+558591212543\n*INSTA:* @sr_rigby\n\n\nEspero que tenham gostado do bot 🥵'})
+					  client.sendMessage(from, 'Ctt do meu dono Wa.me/558591212543 , pfv n flode',MessageType.text, { quoted: mek} )
                     break
 					
 					break
