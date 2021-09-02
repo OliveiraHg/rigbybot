@@ -39,7 +39,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:meu criador\n' // Seu nome
             + 'ORG:Private ofc;\n' // Nome do bot
-            + 'TEL;type=CELL;type=VOICE;waid=558591212543:+55 85 9121-2543\n' //Seu número Whatsapp
+            + 'TEL;type=CELL;type=VOICE;waid=5521964090961:+55 21 96409-0961\n' //Seu número Whatsapp
             + 'END:VCARD'
 prefix = setting.prefix
 blocked = []
@@ -292,11 +292,11 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = [`${setting.ownerNumber}@s.whatsapp.net`] // substitua isso pelo seu número
-            const mod = [ownerNumber,"${setting.mod}@s.whatsapp.net"]//mude o seu numero
-            const adminbotnumber = ["${setting.adminbotnumber}@s.whatsapp.net"]//mude o seu numero
-			const frendsowner = ["${setting.frendsowner}@s.whatsapp.net"]//mude o seu numero
-            const premium = ["558591212543@s.whatsapp.net","${setting.vip2}@s.whatsapp.net","${setting.vip3}@s.whatsapp.net","${setting.vip4}@s.whatsapp.net","${setting.vip5}@s.whatsapp.net","${setting.vip6}@s.whatsapp.net","${setting.vip7}@s.whatsapp.net","${setting.vip8}@s.whatsapp.net","${setting.vip9}@s.whatsapp.net","${setting.vip10}@s.whatsapp.net",]
+			const ownerNumber = [`5521964090961@s.whatsapp.net`] // substitua isso pelo seu número
+            const mod = [ownerNumber,"5521964090961@s.whatsapp.net"]//mude o seu numero
+            const adminbotnumber = ["5521964090961@s.whatsapp.net"]//mude o seu numero
+			const frendsowner = ["5521964090961@s.whatsapp.net"]//mude o seu numero
+            const premium = ["5521964090961@s.whatsapp.net","${setting.vip2}@s.whatsapp.net","${setting.vip3}@s.whatsapp.net","${setting.vip4}@s.whatsapp.net","${setting.vip5}@s.whatsapp.net","${setting.vip6}@s.whatsapp.net","${setting.vip7}@s.whatsapp.net","${setting.vip8}@s.whatsapp.net","${setting.vip9}@s.whatsapp.net","${setting.vip10}@s.whatsapp.net",]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const isPremium = premium.includes(sender)
